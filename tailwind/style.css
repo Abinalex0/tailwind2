@@ -1,0 +1,47 @@
+/* .ph-3 {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+.pv-2 {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+} */
+.defaultHeader {
+  background: #fff;
+  transition: 0.5s ease;
+}
+.site-header {
+  border-bottom: 1px solid #000;
+}
+main {
+  min-height: 100vh;
+}
+.text-balanced {
+  text-wrap: balance;
+}
+@media (min-width: 896px) {
+  #cro-intro {
+    background: linear-gradient(
+      to right,
+      #dcfebc 0%,
+      #dcfebc 50%,
+      #fff 50%,
+      #fff 100%
+    );
+  }
+}
+.bg-color-1 {
+  background-color: #dcfebc;
+}
+.bg-color-2 {
+  background-color: #bbecff;
+}
+.bg-color-tone {
+  background-color: #f7f3ef;
+}
+.site-footer {
+  background-color: #000;
+}
+.bb {
+  filter: brightness(0) invert(1);
+}

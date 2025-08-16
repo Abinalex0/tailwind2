@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tailwind</title>
+  </head>
+  <body>
+    <header
+      id="page-header"
+      class="site-header color-black w-full z-2 px-3 py-2 nav-down defaultHeader"
+    >
+      <div class="container-default mx-auto flex items-center justify-between">
+        <div class="logo flex items-center lg:items-start">
+          <img src="images/peek-insights-logo.svg" />
+        </div>
+        <!-- <div class="flex gap-3 lg:gap-5 text-xl"> -->
+        <nav class="hidden lg:flex items-center gap-3 lg:gap-5 text-xl">
+          <a href="#">Benefits</a>
+          <a href="#">Testimonals</a>
+          <a href="#">What's included</a>
+          <a href="#">How it works </a>
+          <a href="#">Pricing</a>
+          <a href="#" class="block bg-black text-white p-4 rounded-lg"
+            >Get a free audit</a
+          >
+        </nav>
+
+        <!-- </div> -->
+      </div>
+    </header>
+    <main>
+      <section class="grid-pattern md:pv-4 m-20 bg-white flex items-center">
+        <div
+          class="mx-auto items-center color-black gap-1 lg:gap-25 z-1 grid lg:grid-cols-2"
+        >
+          <div class="flex flex-col items-center lg:items-start space-y-8">
+            <h1
+              class="text-4xl md:text-5xl lg:text-6xl font-light text-balanced pb-0"
+            >
+              Actionable insights to help your store convert more
+            </h1>
+            <p class="text-xl text-balance">
+              Get a clear action plan to boost your website conversions through
+              smarter UX, design, and messaging.
+            </p>
+            <div class="flex flex-col lg:flex-row w-full lg:w-auto">
+              <a
+                class="bg-black text-white mb-3 text-xl px-4 py-2 rounded"
+                href="#"
+                >Get your FREE Audit
+              </a>
+              <a class="px-4 py-2 rounded" href="#">View Audit Pricing </a>
+            </div>
+          </div>
+          <div class="pb-2 p-15 xl:p-3 relative">
+            <div class="p-10">
+              <img
+                src="images/peek-insights-hero.jpg.webp"
+                style="width: 100%; height: auto; border-radius: 500px"
+                class="border-1 border-solid w-auto"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- <div
+          class="hero-bg absolute-0 w-full h-100"
+          style="
+            background: linear-gradient(
+              90deg,
+              rgba(255, 255, 255, 1) 30%,
+              rgba(255, 255, 255, 0) 100%
+            );
+          "
+        ></div> -->
+      </section>
+      <section
+        id="cro-intro"
+        class="lg:py-8 lg:px-6 block z-1 relative content-auto border-1 border-b border-black my-25 mb-20"
+      >
+        <div class="m-20">
+          <div class="lg:block hidden mb-3" style="width: 82px; height: 100%">
+            <img
+              width="90"
+              height="90"
+              src="images/magnifying-glass.svg"
+              alt=""
+            />
+          </div>
+          <div class="grid lg:gap-6 xl:gap-8 lg:grid-cols-2">
+            <div class="pt-5 p-3 lg:p-0 md:p-6 bg-color-1">
+              <h2 class="text-3xl text-balance">
+                Get valuable insights to increase your conversions, average
+                order value and build brand trust.
+              </h2>
+            </div>
+            <div class="space-y-10  pb-5 lg:p-0  mx-10">
+              <p class="text-xl pb-0 mt-6">
+                Turn your website visitors into happy customers. We analyze your
+                store, identify friction points, and craft a plan to improve
+                conversions tailor made for your brand.
+              </p>
+              <a
+                class="bg-black text-white inline-block p-4 rounded-xl"
+                href="#"
+                >Get your FREE Audit
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="benefits"
+        class="p-defualt bg-color-tone space-y-4 content-auto"
+      >
+        <div class="text-center">
+          <span class="bg-cyan-300"> Benefits </span>
+          <h2 class="font-light text-center text-blance pb-0 text-5xl">
+            Transform your e-commerce
+            <br />
+            site with a CRO audit.
+          </h2>
+        </div>
+        <div class="mx-auto space-y-4">
+          <div
+            class="bg-white border-1 boder-solid items-center gap-5 p-3 lg:p-4 flex flex-col lg:grid grid-cols-2 lg:gap-20 m-20"
+          >
+            <div class="px-10 py-15">
+              <h3 class="text-underline text-balance text-3xl mb-2">
+                Uncover hidden <br />conversion killers
+              </h3>
+              <p class="text-xl">
+                A deep into your website to uncover user Friction Points. We’ll
+                help you gain insights and help prioritise areas of improvement
+                to streamline the conversion process.
+              </p>
+            </div>
+            <div class="p-25 " >
+              <img
+                src="images/store-front.jpg.webp" class="rounded-xl"
+                width="100%"
+                height="auto"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mx-auto space-y-4">
+          <div
+            class="bg-white border-1 boder-solid items-center gap-5 p-3 lg:p-4 flex flex-col lg:grid grid-cols-2 lg:gap-20 m-20"
+          >
+            <div class="px-10 py-15">
+              <h3 class="text-underline text-balance text-3xl mb-2">
+                Uncover hidden <br />conversion killers
+              </h3>
+              <p class="text-xl">
+                A deep into your website to uncover user Friction Points. We’ll
+                help you gain insights and help prioritise areas of improvement
+                to streamline the conversion process.
+              </p>
+            </div>
+            <div class="p-25 ">
+              <img src="images/aov-edit.jpg.webp" class="rounded-xl width="100%" height="auto" />
+            </div>
+          </div>
+        </div>
+        <div class="mx-auto space-y-4">
+          <div
+            class="bg-white border-1 boder-solid items-center gap-5 p-3 lg:p-4 flex flex-col lg:grid grid-cols-2 lg:gap-20 m-20"
+          >
+            <div class="px-10 py-15">
+              <h3 class="text-underline text-balance text-3xl mb-2">
+                Uncover hidden <br />conversion killers
+              </h3>
+              <p class="text-xl">
+                A deep into your website to uncover user Friction Points. We’ll
+                help you gain insights and help prioritise areas of improvement
+                to streamline the conversion process.
+              </p>
+            </div>
+            <div class="p-25">
+              <img
+                src="images/ARTD-C04-Device-034-edit.jpg.webp" class="rounded-xl
+                width="100%"
+                height="auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="textimonials" class="px-5 md:px-7 mx-auto">
+        <div class="text-center">
+          <div class="flex justify-center items-center">
+            <span class="text-sm bg-color-2 flex gap-1 justify-center"
+              ><div class="flex items-center "></div>
+              Trusted by Top Brands
+            </span>
+          </div>
+          <h2 class="text-3xl br-mobile text-balanced pb-4">
+            Helping brands like yours <br class="hide-break" />
+            exceed conversion goals
+          </h2>
+          <div class="container ">
+            <p class="text-xl p-10 font-light text-balance my-5 bg-color-2  mx-auto ">
+              Peek Insights has helped our startup tremendously. Thanks to their
+              timely efforts, we've seen a successful increase in online sales
+              and performance across our entire platform. Peek Insights truly is
+              amazing at what they do!
+              
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="whats-included" class="md:pt-8">
+        <div class="max-w-7xl mx-auto px-5">
+          <div
+            class="grid grid-cols-2 xl:grid-cols-3 gap-3 xl:gap-6 items-start"
+          >
+            <div class="col-span-2 xl:col-span-1 sticky top-0 ml-10 text-balance">
+              <span
+                class="inline-flex items-center gap-1 bg-blue-200 px-3 py-1 rounded-full text-sm font-medium mt-15"
+              >
+                What's included
+              </span>
+              <h2 class="text-5xl font-light mt-3 ">
+                A personalized action plan for growth
+              </h2>
+            </div>
+          
+
+            <div class="col-span-2 flex flex-col gap-4 md:gap-6">
+              <div
+                class="flex flex-col lg:flex-row items-start gap-3 lg:gap-5 bg-white shadow rounded-xl p-4 m-10"
+              >
+                <div
+                  class="p-3 aspect-square flex items-center justify-center rounded-full bg-[#B2E3F8]"
+                >
+                  <img
+                    src="images/magnifying-glass.svg"
+                    alt="icon"
+                    width="48"
+                    height="48"
+                  />
+                </div>
+                <div class="flex-1 space-y-3">
+                  <h3 class="text-lg font-semibold">
+                    In-depth website analysis
+                  </h3>
+                  <p>
+                    A deep dive into your customer journey, pinpointing the
+                    strengths and weaknesses of your home, collection, product,
+                    and cart pages. Uncover hidden obstacles and untapped
+                    opportunities for maximizing conversions.
+                  </p>
+                  <ul class="space-y-2 text-lg">
+                    <li>Navigation and menu audit</li>
+                    <li>Home page audit</li>
+                    <li>Collection page audit</li>
+                    <li>page audit</li>
+                    <li>checkout process audit</li>
+                  </ul>
+                  <p class="block md:hidden text-md mb-2 lg:mb-6">
+                    Get a clear plan with actionable recommendations that
+                    prioritise user experience and lead to sustainable growth
+                    for your brand.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works" class="p-20 space-y-4 md:space-y-6">
+        <div class="text-center">
+          <span class="bg-color-2"> How it works</span>
+          <h2 class="text-center text-3xl">3 steps to better conversions</h2>
+        </div>
+        <div class="container-default mx-auto">
+          <div class="grid grid-cols-1  md:grid-cols-3 gap-10">
+            
+            <div class="module flex items-start md:gap-0 md:block module-1">
+              <div class="number">
+                <p
+                  class="font-regular pb-0 flex items-center justify-center"
+                ></p>
+              </div>
+              <div>
+                <h3 class="text-2xl font-regular text-balance">
+                  Kickstart your optimization
+                </h3>
+                <p class="text-xl">
+                  Order your CRO audit and complete a brief onboarding form.
+                  This helps us understand your brand, goals, and target
+                  audience, ensuring a tailored approach to your audit.
+                </p>
+              </div>
+            </div>
+
+            <div class="module flex items-start md:gap-0 md:block module-2">
+              <div class="number">
+                <p
+                  class="font-regular pb-0 flex items-center justify-center"
+                ></p>
+              </div>
+              <div>
+                <h3 class="text-2xl font-regular text-balanced">
+                  Uncover hidden opportunities
+                </h3>
+                <p class="text-xl">
+                  Our team will create your audit by analysing your website's
+                  user journey to pinpoint pain points and reveal strategies for
+                  boosting conversions.
+                </p>
+              </div>
+            </div>
+            
+
+            <!-- <div class="module flex items-start md:gap-0 md:block module-3">
+              <div class="number">
+                <p
+                  class="font-regular pb-0 flex items-center justify-center"
+                ></p>
+              </div> -->
+
+              <div>
+                <h3 class="text-md font-2 font-regular text-balanced text-2xl">
+                  Receive your actionable CRO audit
+                </h3>
+                <p class="text-xl">
+                  In two weeks, you'll receive a personalized audit filled with
+                  insights and recommendations to optimize your website.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer
+        id="colophon"
+        class="site-footer p-3 flex flex-col pt-5 md:p-10 md:pt-8 text-white "
+      >
+        <div class="container-default mx-auto space-y-4 md:space-y-6">
+          <div class="grid gap-3 lg:gap-8 lg:grid-cols-2">
+            <div class="item">
+              <h3 class="text-2xl text-balance">
+                Helping brands like yours exceed conversion goals.
+              </h3>
+            </div>
+
+            <div class="item grid gap-3 grid-cols-2">
+              <ul class="space-y-2 md:space-y-3">
+                <li>
+                  <a class="line-link" href="/free-audit/">Get a free audit</a>
+                </li>
+                <li><a class="line-link" href="/work/">CRO web design</a></li>
+                <li>
+                  <a class="line-link" href="/contact-us/">Get in touch</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="grid gap-3 lg:gap-8 lg:grid-cols-2 mt-4 pt-4 lg:pt-6 items-end"
+            style="border-top: 1px solid white"
+          >
+            <div class="item">
+              <img src="images/peek-insights-logo.svg" class="bb" fill="none" />
+            </div>
+            <div class="item">
+              <ul class="flex gap-3 pb-2 flex-wrap">
+                <li>© Peek Insights 2025</li>
+                <li>
+                  <a href="#">A double makers company</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
